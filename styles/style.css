@@ -1,0 +1,56 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    width: 1320px;
+    height: 600;
+    position: relative;
+}
+
+img{
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+  
+}
+.content h5{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 15px;
+}
+.content{
+    font-size: 30px;
+    color: white;
+}
