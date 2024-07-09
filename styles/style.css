@@ -54,3 +54,43 @@ img{
     font-size: 30px;
     color: white;
 }
+
+.title{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.content-title{
+    width: 800px;
+    height: 817px;
+    margin: auto;
+}
+
+.content-manage{
+   font-size: 20px;
+  text-align: center;
+
+}
+
+.content-manage h1{
+    color: #FF0000;
+    padding: 20px;
+}
+.content-manage h6{
+    color: #FF0000;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.content-manage h3{
+    color: #070211;
+   
+}
+.title img{
+    width: 100%;
+    padding: 30px;
+}
